@@ -1,0 +1,59 @@
+/* Container for creating a 3D Flip Box Effect */
+/* Set the size of the box */
+.flip_box {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* For holding the front-side and back-side elements */
+.inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/* For adding the Horizontal Flip Effect */
+/* Flip effect on click/tap using .flipped class */
+.flip_box.flipped .inner {
+    transform: rotateY(180deg);
+}
+
+
+/* For positioning the front-side and back-side elements */
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* For styling the front-side element  */
+.front {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* For styling the back-side element  */
+.back {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+}
