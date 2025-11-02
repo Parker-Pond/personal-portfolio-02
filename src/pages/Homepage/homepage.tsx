@@ -10,16 +10,28 @@ function Homepage() {
 <h2>maybe some flip around info boxes here</h2>
 
 <div className="info-boxes-shell">
-<Flip_box frontContent="this goes on the front>" frontColor="blue" backColor="orange">
+<Flip_box frontContent="Coding Frameworks/languages" frontColor="blue" backColor="orange">
+    <ul>
+      <li>Node.js</li>
+      <li>React</li>
+      <li>Nest.js</li>
+      <li>express</li>
+      <li>Prisma</li>
+      <li>Postgress</li>
+      <li>SQL</li>
+    </ul>
+    </Flip_box> 
+<Flip_box frontContent="Skills" frontColor="blue" backColor="orange">
+    <ul>
+      <li>Problem Solving</li>
+      <li>Leadership</li>
+      <li>learning while doing</li>
+   
+    </ul>    </Flip_box> 
+<Flip_box frontContent="???????" frontColor="blue" backColor="orange">
     <p>This is the back content of the flip box. You can put any React nodes here.</p>
     </Flip_box> 
-<Flip_box frontContent="this goes on the front>" frontColor="blue" backColor="orange">
-    <p>This is the back content of the flip box. You can put any React nodes here.</p>
-    </Flip_box> 
-<Flip_box frontContent="this goes on the front>" frontColor="blue" backColor="orange">
-    <p>This is the back content of the flip box. You can put any React nodes here.</p>
-    </Flip_box> 
-<Flip_box frontContent="this goes on the front>" frontColor="blue" backColor="orange">
+<Flip_box frontContent="this goes on the front" frontColor="blue" backColor="orange">
     <p>This is the back content of the flip box. You can put any React nodes here.</p>
     </Flip_box> 
 </div>
