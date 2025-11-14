@@ -1,0 +1,14 @@
+.text_box {
+    font-size: larger;
+    background: 91C8E4;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(70, 68, 70);
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+}
+.text_box p{
+    margin: 2rem;
+}
