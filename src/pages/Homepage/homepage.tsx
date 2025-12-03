@@ -1,5 +1,6 @@
 import Flip_box from "../../modules/flip-box.tsx/Flip_box";
 import Ai_interface from "../AI_interface/ai_interface";
+import Tech_icons from "../../modules/tech_icons/tech_icons";
 import './homepage.css';
 
 function Homepage() {
@@ -35,7 +36,7 @@ function Homepage() {
     <p>This is the back content of the flip box. You can put any React nodes here.</p>
     </Flip_box> 
 </div>
-
+<Tech_icons />
 
 
     </div>

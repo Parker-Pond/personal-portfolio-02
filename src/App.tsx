@@ -8,9 +8,7 @@ function App() {
 
   return (
  <div className="App-shell">
-  <Link to={"/"}>
-    <h1>Hello World</h1>
-  </Link>
+
     <Routes>
 
           <Route path="/" element={<Homepage />} />
