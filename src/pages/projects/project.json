@@ -1,0 +1,12 @@
+{
+  "vesta_notify": {
+    "name": "Vesta Notify",
+    "description": "Notification and ticketing system build for food trucks and small buisnesses who would need to have clients wait for their product to be delivers but also do not want to force them to stay near their booth or store ",
+    "tech_stack": "React, Node, Express, WebSockets",
+    "role": "Solo Developer",
+    "problem_this_solves": "My favorite weekend activity is going to farmers Markets. but if I want to get some food I then have to wait up to 20 min right next to a stall waiting to hear my order number. time I could be enjoying the other booths. this app fixes that by letting me walk around the market while waiting for my food",
+    "outcome": "outcome",
+    "complexity": "complexity",
+    "key_features": "key features"
+  }
+}

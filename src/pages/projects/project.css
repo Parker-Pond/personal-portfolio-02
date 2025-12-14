@@ -1,0 +1,22 @@
+.project_shell{
+margin: 2%;
+padding: 5px;
+align-self: center;
+}
+.image_carrousel_shell{
+    height: 300px;
+    background-color: rgb(101, 229, 133);
+}
+.information_shell{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.info_container{
+    max-width: 400px;
+    min-width: 200px;
+}
+.project_line_item{
+    display: flex;
+    justify-content: space-between;
+}
